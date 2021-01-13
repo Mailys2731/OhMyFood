@@ -1,0 +1,9 @@
+
+.header-box{
+    display: flex;
+  
+    & img{
+        width: 10rem;
+        padding: 0.5rem 0 0.5rem 0;
+    }
+}

@@ -1,101 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Oh my food</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/977411349e.js" crossorigin="anonymous"></script>
-    </head>
 
-    <body>
-        <header>
-            <div class="logo_box">
-                <img src="images/logo/ohmyfood@2x.svg" alt="oh my food">
+<head>
+    <title>Oh my food</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/977411349e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+
+<body>
+    <header class="header-box">
+        <div class="header-box_return">
+            <a href="index.html">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+        </div>
+        <div class="header-box__logo">
+            <img src="dist/images/logo/ohmyfood@2x.svg" alt="oh my food">
+        </div>
+    </header>
+
+
+    <main class="menu-prev">
+
+        <div class="menu-prev__heading">
+            <h1>À la française</h1>
+            <div><i class="fas fa-heart"></i></div>
+        </div>
+
+        <section class="menu-box">
+
+            <h2>ENTRÉES</h2>
+
+            <div class="menu-box__heading">
+                <span>La palette du goût</span>
             </div>
-        </header>
 
-        <main>
+            <div class="menu-box__subheading">
+                <span>Ménilmontant</span>
+            </div>
 
-            <div id="bannière_image"></div>
-            <article id="article_menu">
-            <h1 class="h1_menu">À la française</h1>
-            <div class="icon_heart"><i class="fas fa-heart"></i></div>
+            <div class="menu-box__price">
+                <span>25€</span>
+            </div>
 
-            <section class="section_plat">
-                <h2 class="h2_menu">ENTRÉES</h2>
-                <div class="box_plat">
-                    <p class="text1">La palette du goût</p>
-                    <p class="text2">Ménilmontant</p>
-                    <p class="price"></p>
-                </div>
+        </section>
 
-                <div class="box_plat">
-                    <p class="text1">La palette du goût</p>
-                    <p class="text2">Ménilmontant</p>
-                    <p class="price"></p>
-                </div>
 
-                <div class="box_plat">
-                    <p class="text1">La palette du goût</p>
-                    <p class="text2">Ménilmontant</p>
-                    <p class="price"></p>
-                </div>
-            </section>
+    </main>
 
-            <section class="section_plat">
-                <h2 class="h2_menu">PLATS</h2>
-                <div class="box_plat">
-                    <p class="text1">La palette du goût</p>
-                    <p class="text2">Ménilmontant</p>
-                    <p class="price"></p>
-                </div>
 
-                <div class="box_plat">
-                    <p class="text1">La palette du goût</p>
-                    <p class="text2">Ménilmontant</p>
-                    <p class="price"></p>
-                </div>
+    <footer class="footer-box">
 
-                <div class="box_plat">
-                    <p class="text1">La palette du goût</p>
-                    <p class="text2">Ménilmontant</p>
-                    <p class="price"></p>
-                </div>
-            </section>
+        <div class="footer-box__logo">
+            <img src="dist/images/logo/ohmyfood@2x.svg" alt="Oh my food">
+        </div>
 
-            <section class="section_plat">
-                <h2 class="h2_menu">DESSERT</h2>
-                <div class="box_plat">
-                    <p class="text1">La palette du goût</p>
-                    <p class="text2">Ménilmontant</p>
-                    <p class="price"></p>
-                </div>
+        <ul class="footer-box__list">
+            <li><i class="fas fa-utensils"></i>Proposer un shop</li>
+            <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
+            <li>Mentions légales</li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </footer>
+</body>
 
-                <div class="box_plat">
-                    <p class="text1">La palette du goût</p>
-                    <p class="text2">Ménilmontant</p>
-                    <p class="price"></p>
-                </div>
-
-                <div class="box_plat">
-                    <p class="text1">La palette du goût</p>
-                    <p class="text2">Ménilmontant</p>
-                    <p class="price"></p>
-                </div>
-            </section>
-
-            </article>
-
-        </main>
-
-        <footer>
-            <img src="images/logo/ohmyfood@2x.svg" alt="Oh my food">
-            <ul>
-                <li><i class="fas fa-utensils"></i>Proposer un restaurant</li>
-                <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
-                <li>Mentions légales</li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </footer>
-    </body>
 </html>

@@ -1,0 +1,24 @@
+{
+  "name": "projet_3",
+  "version": "1.0.0",
+  "description": "projet 3 openclassrooms",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass scss/main.scss dist/css/style.css",
+    "watch": "node-sass scss/main.scss dist/css/style.css -w",
+    "compressed":"node-sass scss/main.scss dist/css/style.css -w --output-style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mailys2731/MailysCondamy_3_10012021.git"
+  },
+  "author": "Mailys Condamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mailys2731/MailysCondamy_3_10012021/issues"
+  },
+  "homepage": "https://github.com/Mailys2731/MailysCondamy_3_10012021#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
