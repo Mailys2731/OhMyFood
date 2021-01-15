@@ -1,0 +1,27 @@
+
+
+.footer-box{
+    padding: 2rem 0 2rem 0;
+    background-color: #353535;
+    
+    &__logo{
+        & img {
+            width: 5rem;
+        }
+    }
+    &__list{
+        color: white;
+        list-style-type: none;
+        & li{
+            padding-bottom: 0.5rem;
+        }
+        & i{
+            padding-right: 0.5rem;
+        }
+        & a{
+            text-decoration: none;
+            color: white;
+    
+        }
+    }
+}

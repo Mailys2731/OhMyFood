@@ -1,11 +1,15 @@
-@import "base/base";
-@import "base/typographie";
-
-@import "components/buttons";
-
-@import "layouts/header";
-@import "layouts/footer";
-@import "layouts/nav";
 
 @import "utils/variables";
 @import "utils/mixins";
+@import "components/buttons";
+
+@import "base/base";
+@import "base/typographie";
+
+
+
+@import "layouts/header";
+@import "layouts/nav";
+@import "layouts/aside";
+@import"layouts/principal";
+@import "layouts/footer";

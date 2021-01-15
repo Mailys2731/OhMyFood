@@ -1,0 +1,36 @@
+
+
+.aside-function{
+    padding: 2rem 0 2rem 0;
+    & h3{
+        @include h3;
+    }
+
+    &__box{
+        @include size-box1;
+        background-color: $color-lightgray;
+        display: flex;
+        align-items: center;
+        font-weight: bold;
+        
+        & span{
+            @include small-number;
+        }
+        & i{
+            margin: 0 1rem 0 1rem;
+            color: #7e7e7e;
+            font-size: 1rem;
+
+        & p{
+            font-size: 1.2rem;
+        }
+
+        }
+        &:hover{
+            background-color: #f5edff;
+            & i{
+                color: $color_primary;
+            }
+        }
+    }
+}

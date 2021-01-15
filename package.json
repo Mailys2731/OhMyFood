@@ -4,8 +4,6 @@
   "description": "projet 3 openclassrooms",
   "main": "index.js",
   "scripts": {
-    "compile": "node-sass scss/main.scss dist/css/style.css",
-    "watch": "node-sass scss/main.scss dist/css/style.css -w",
     "compressed":"node-sass scss/main.scss dist/css/style.css -w --output-style=compressed"
   },
   "repository": {
