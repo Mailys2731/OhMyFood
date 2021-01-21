@@ -1,0 +1,98 @@
+
+
+.menu-banner{
+    background-image:url('../../dist/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg');
+    @include banner;
+}
+
+.menu-prev{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $color-mediumgray;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin-top:-2rem;
+    &__heading{
+        font-family: 'Shrikhand', cursive;
+        font-size: 0.7rem;
+        padding: 0 0 0 1rem;
+    }
+    &__iconlike{
+        top:2rem;
+        right: 2rem;
+        @include iconlike;
+    }
+
+    &__iconlike--hover{
+        top:2rem;
+        right: 2rem;
+        @include iconlike;
+    }
+}
+
+.menu-section{
+    & h2{
+     @include h2;
+    }
+    
+}
+
+.menu-box{
+    @include size-box3;
+    position: relative;
+    &__heading{
+        padding:0.5rem 0 0.3rem 1rem;
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+    &__subheading{
+        padding: 0 0 0 1rem;
+    }
+    &__price{
+        display: inline;
+        font-weight: bold;
+    }
+    &__check{
+        background-color: $color-tertiary;
+        position: absolute;
+        display: flex;
+        width: 4rem;
+        height: 100%;
+        top: 0rem;
+        right: 0rem;
+        border-bottom-right-radius: 1rem;
+        border-top-right-radius: 1rem;
+        justify-content:center;
+        align-items: center;
+        color: white;
+        font-size: 1.3rem;
+        transform: scaleX(0);
+    }
+    &:hover .menu-box__check {
+        transform-origin: 100% 50%;
+        transform: scale(1);
+        transition: transform 400ms;
+    }
+
+
+    &:hover  .fa-check-circle{
+        transform: rotate(360deg);
+    }
+
+    
+
+
+}
+
+.command-box{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem 0 4rem 0;
+    &__button{
+        @include button-principal;
+        width: 100px;
+    }
+
+}

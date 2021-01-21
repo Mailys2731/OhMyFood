@@ -2,6 +2,9 @@
 .header-box{
     display: flex;
     justify-content:center;
+    &__return{
+        @include return;
+    }
     & img{
         width: 10rem;
         padding: 0.5rem 0 0.5rem 0;

@@ -1,18 +1,24 @@
 @mixin button-principal{
-    background: linear-gradient(to bottom right, $color-secondary, $color_primary) ;
+    background-image: linear-gradient(to bottom right, $color-secondary, $color_primary) ;
     height: 35px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0 20px 0 20px;
     border-radius: 1.5rem;
     margin: 0.5rem;
+    @include shadow;
+    transition: transform 450ms, 150ms, opacity;
     & a{
         text-decoration: none;
         color: white;
     }
 
     &:hover{
-        transform:scale(1.15)
+        transform:scale(1.15); 
+        opacity: 0.8;
+        @include shadow-darken;
+        
     }
 }
 
@@ -43,21 +49,28 @@
 
 @mixin iconlike {
     position: absolute;
-    right: 1rem;
-    top: 11rem;
     font-size: 1.2rem;
     width: min-content;
     & .fas{
-        display: none;
+        color: $color-primary;
+        opacity: 0;
+        transition: opacity 1s;
     }
-    &:active{
-        .fas{
-            display: inline;
-            color:$color-primary;
-        }
-        .far{
-            display: none;
+    & :hover{
+        &.fas{
+            opacity: 1;
+            
         }
     }
-    
+ 
+}
+
+@mixin return{
+    position: absolute;
+    top:1.2rem;
+    left: 1rem;
+    font-size: 1.1rem;
+    & a{
+    color: $color-darkgray;
+    }
 }
