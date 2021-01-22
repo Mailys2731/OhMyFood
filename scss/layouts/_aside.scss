@@ -1,6 +1,7 @@
 
 
 .aside-function{
+    background-color: white;
     padding: 2rem 0 2rem 0;
     & h3{
         @include h3;
@@ -32,5 +33,20 @@
                 color: $color_primary;
             }
         }
+    }
+}
+
+@media screen and (min-width:765px){
+    .aside-function{
+        display: flex;
+        position: relative;
+        & h3{
+            position:absolute;
+            top:0px;
+            left:0px;
+        }
+    }
+    .aside-function__box{
+        padding-right: 1rem;
     }
 }

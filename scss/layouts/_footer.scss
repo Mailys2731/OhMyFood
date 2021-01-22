@@ -26,3 +26,16 @@
         }
     }
 }
+
+@media screen and (min-width:750px){
+    .footer-box__list{
+        display: flex;
+        justify-content: space-around;
+        padding:0 10% 0 10%;
+    }
+    .footer-box__logo{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+}

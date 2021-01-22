@@ -2,6 +2,7 @@
 .header-box{
     display: flex;
     justify-content:center;
+    background-color: white;
     &__return{
         @include return;
     }

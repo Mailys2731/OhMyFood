@@ -21,7 +21,7 @@
 
         90%{
             opacity: 0.8;
-            z-index: 9999;
+            z-index: 999;
         }
 
         100%{
@@ -56,6 +56,7 @@
 
 
 .shop-prev{
+    position: relative;
     background-color: $color-lightgray;
     padding: 2rem 0 2rem 0;
     & h3{
@@ -120,3 +121,21 @@
 
 }
 
+@media screen and (min-width:750px){
+    .shop-prev{
+        display: flex;
+        flex-direction: row;
+        padding-top:3rem;
+    }
+    .shop-prev h3{
+        position: absolute;
+        top:0.3rem;
+  
+    }
+    .shop-box{
+       
+        width: 50%;
+        min-width: 8rem;
+        max-width: 30rem;
+    }
+}
