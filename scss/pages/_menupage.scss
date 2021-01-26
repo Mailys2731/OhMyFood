@@ -115,7 +115,7 @@
     }
     &:hover .menu-box__check {
         transform-origin: 100% 50%;
-        transform: scale(1);
+        transform: scaleX(1);
         transition: transform 400ms;
     
     }
