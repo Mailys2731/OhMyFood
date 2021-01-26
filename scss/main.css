@@ -484,22 +484,18 @@ body {
 @-webkit-keyframes menu-box {
   0% {
     opacity: 1;
-    scale: 0;
   }
   100% {
     opacity: 0;
-    scale: 1;
   }
 }
 
 @keyframes menu-box {
   0% {
     opacity: 1;
-    scale: 0;
   }
   100% {
     opacity: 0;
-    scale: 1;
   }
 }
 
