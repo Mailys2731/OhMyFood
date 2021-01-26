@@ -31,13 +31,13 @@
         padding: 0 0 0 1rem;
     }
     &__iconlike{
-        top:2rem;
+        top:1.5rem;
         right: 2rem;
         @include iconlike;
     }
 
     &__iconlike--hover{
-        top:2rem;
+        top:1.5rem;
         right: 2rem;
         @include iconlike;
     }

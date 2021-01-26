@@ -271,7 +271,7 @@ body {
 }
 
 .menu-prev__iconlike {
-  top: 2rem;
+  top: 1.5rem;
   right: 2rem;
   position: absolute;
   font-size: 1.2rem;
@@ -292,7 +292,7 @@ body {
 }
 
 .menu-prev__iconlike--hover {
-  top: 2rem;
+  top: 1.5rem;
   right: 2rem;
   position: absolute;
   font-size: 1.2rem;
