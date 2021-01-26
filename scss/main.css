@@ -335,7 +335,6 @@ body {
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   opacity: 1;
-  scale: 0;
   animation-direction: reverse;
 }
 
@@ -359,8 +358,8 @@ body {
 
 .menu-box:hover .menu-box__subheading {
   width: 12rem;
-  -webkit-animation: menu-box infinite linear 1;
-          animation: menu-box infinite linear 1;
+  -webkit-animation: menu-box infinite linear;
+          animation: menu-box infinite linear;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
